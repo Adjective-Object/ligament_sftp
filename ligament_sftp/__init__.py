@@ -18,24 +18,17 @@ class SftpOperation(BuildTarget):
     """
 
     def __init__(self,
-        credentials_file,
+        login_credentials,
         targets,
         destination,
         operation,
         direction=UPLOAD,
         **kwargs):
-        """ Initialize the task with given args
-        credentials_file:
-            poop
-
-        credentials_file:
-            poop
-
+        """ 
         """
         BuildTarget.__init__(self, **kwargs)
 
-        with open(credentials_file, "r") as f:
-            self.login_credentials = json.load(f)
+        self.login_credentials = login_credentials
 
         self.direction = direction
         self.destination = destination
