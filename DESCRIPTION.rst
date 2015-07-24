@@ -1,6 +1,4 @@
-Jinja2 Templater for ligament
-=============================
+Ligament SFTP
+=============
 
-Inserts variables into ligament
-
-TODO write the docs
+Provides SFTP uploading for [ligament](https://pypi.python.org/pypi/ligament)

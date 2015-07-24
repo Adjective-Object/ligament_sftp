@@ -18,7 +18,7 @@ with open(path.join(here, 'DESCRIPTION.rst'), encoding='utf-8') as f:
 
 setup(
     name='ligament-sftp',
-    version='0.0.0.dev',
+    version='0.0.3.dev',
     description='A set of sftp build tasks for ligament',
     url='http://github.com/Adjective-Object/ligament_jinja',
     author='Adjective-Object',
@@ -35,7 +35,7 @@ setup(
         'Programming Language :: Python :: 2.7'],
 
     keywords='ligament grunt build automation jinja',
-    install_requires=['ligament>=0.0.0.dev', 'pysftp>=0.2.8'],
+    install_requires=['ligament>=0.0.3.dev', 'pysftp>=0.2.8'],
 
     packages=["ligament_sftp"]
 )
